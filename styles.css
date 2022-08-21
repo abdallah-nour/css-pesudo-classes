@@ -45,12 +45,6 @@ form {
   order: 1;
   flex: 1;
 }
-.form-group input:focus {
-  background-color: #f5f5f5;
-}
 .form-group label {
   flex: 0 1 10ch;
-}
-.form-group input:focus ~ label {
-  font-weight: bold;
 }

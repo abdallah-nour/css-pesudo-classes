@@ -12,4 +12,4 @@
 
 - [Focus-Within](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within)
 
-- [Focus-Within](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within)
+- [:has()](https://developer.mozilla.org/en-US/docs/Web/CSS/:has)
