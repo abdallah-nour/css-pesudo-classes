@@ -7,34 +7,8 @@
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
     <style>
-      form {
-        padding: 1em 2em;
-        border: 1px solid black;
-      }
-      /* focus-within styles */
       form:focus-within {
         background-color: #ffb;
-      }
-      /* form element */
-      .form-group {
-        display: flex;
-        align-items: center;
-      }
-      .form-group + .form-group {
-        margin-top: 0.5em;
-      }
-      .form-group input {
-        order: 1;
-        flex: 1;
-      }
-      .form-group input:focus {
-        background-color: #f5f5f5;
-      }
-      .form-group label {
-        flex: 0 1 10ch;
-      }
-      .form-group input:focus ~ label {
-        font-weight: bold;
       }
     </style>
   </head>
@@ -42,6 +16,7 @@
     <nav>
       <a href="/">Home</a>
       <a href="/focus-within.html" aria-current="page">focus-within</a>
+      <a href="/focus-visible.html">focus-visible</a>
     </nav>
     <main>
       <h1>focus-within</h1>
