@@ -44,7 +44,7 @@
     </nav>
     <main>
       <h1>focus-within</h1>
-      <form action="/" onsubmit="(e)=>{e.preventDefault();}">
+      <form onsubmit="event.preventDefault()">
         <div class="form-group">
           <input type="text" id="email" />
           <label for="email"> Email: </label>
@@ -53,6 +53,7 @@
           <input type="text" id="password" />
           <label for="password"> Password: </label>
         </div>
+        <input type="submit" value="aa" />
       </form>
     </main>
   </body>
